@@ -5,3 +5,5 @@ docker run -d --name website-container -p 8007:80 website-img
   - run -it ubuntu 
     - -i : interactive (read and write)
     - -t : terminal
+### enter in container
+  - docker exec -it faf6e239edc6 bash
