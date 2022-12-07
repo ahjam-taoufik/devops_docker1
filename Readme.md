@@ -6,4 +6,4 @@ docker run -d --name website-container -p 8007:80 website-img
     - -i : interactive (read and write)
     - -t : terminal
 ### enter in container
-  - docker exec -it faf6e239edc6 bash
+  - docker exec -it name_of_container bash
